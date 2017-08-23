@@ -4,7 +4,3 @@ services:
   project:
     build: .
 
-  test:
-    build: test
-    volumes:
-      - .:/src
