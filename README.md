@@ -26,3 +26,8 @@ Application can be run by simply suing the docker compose
 ### Manually Executing the python
 
     python survey -d data/survey-1.csv -r data/survey-1-responses.csv
+
+### Manually Executing the tests
+
+    python tests
+    nosetsts
