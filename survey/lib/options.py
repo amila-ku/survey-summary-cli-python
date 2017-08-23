@@ -14,12 +14,12 @@ class Options:
         # a default value 'example-value'
         self.parser.add_argument('-d',
                                  '--data-file',
-                                 default='survey-1.csv', # specifies default value
+                                 default='data/survey-1.csv', # specifies default value
                                  dest='datafile', # determines the name of the attribute that parse_args yields
                                  help='Sample data file defining survey survey-01.csv') # specifies help message 
         self.parser.add_argument('-r',
                                  '--responce-file',
-                                 default='survey-1-responses.csv', # specifies default value
+                                 default='data/survey-1-responses.csv', # specifies default value
                                  dest='responces', # determines the name of the attribute that parse_args yields
                                  help='Survey Responces File') # specifies help message 
 
